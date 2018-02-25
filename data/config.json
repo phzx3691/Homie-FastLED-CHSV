@@ -1,0 +1,19 @@
+{
+  "name": "led-control",
+  "device_id": "led",
+  "wifi": {
+    "ssid": "Anonymous",
+    "password": "mcleod64"
+  },
+  "mqtt": {
+    "host": "192.168.2.33",
+    "port": 1883,
+    "base_topic": "devices/",
+    "auth": true,
+    "username": "openhabian",
+    "password": "raspberry369"
+  },
+  "ota": {
+    "enabled": true
+  }
+}
